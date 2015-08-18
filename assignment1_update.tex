@@ -1,0 +1,63 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{lipsum}
+\usepackage{apacite}
+\bibliographystyle{plain}
+%\usepackage{showframe}
+\usepackage[top=1cm, bottom=1.2cm, left=1cm, right=1cm]{geometry}
+% -------Body section----------------------
+\begin{document}
+\title{\textbf{Constructing Secure Web Applications With Proper Data Validation}}
+\date{}
+\author{
+Authors\\
+\textbf{Dr. Anil Kumar and Krishna Reddy}\\
+Summarized by\\
+\textbf{Fariza Aqila Zulkifly}\\
+Faculty of Computing \& Informatics\\
+Multimedia University, Malaysia}
+\maketitle
+% -------Abstract---------------------------
+\abstract{
+\noindent
+The rise of technologies and innovations around the world in the information technology field has made web applications prone to attacks if their security level is low. Web applications are programs that are supported by languages such as JavaScript, PHY, Phyton, HTML and many more that runs in a web browser. Among the benefits of web applications are easy to update and perceive to reduce cost. However, web applications with poor input validation are at risk to be exploit. One of the solution to create secure web applications is through proper data validations. Insertion of correct syntax, characters, digits, spell checks are part of the correct data validations. 
+}
+% -------Problem Solved------------------
+\section{Problem Solved}
+Current QA systems are mostly still using a "search engine approach". When users make a query, they are presented with a list of web pages associated with the answer of the query. In other words, the answer depends on the user’s intelligence. Google search engine implements a system for answering simple questions, but it lacks deductive power. The system fails to answer multi-level question. Besides, ask.com search engine records question and answers from previous query or expert answers. The problem therein is the limitation in the number of questions in the repository, and the inability to keep up with growth of topics in webs.
+% ------Claimed Contributions-----------
+\section{Claimed Contributions}
+This research introduces ways to insert proper data validations to provide secure application for users. Strict validations in server side must be maintained. It’s a better solution to even sanitize. Sanitization is the best option in case of complexity. The advantage of having secure web applications is to provide reliable and secure communication, having lesser complexities to prevent attack patterns on a system.
+% -------Related Work--------------------
+\section{Related Work}
+When security threats arise, a lot of consequences might be faced by the users. According to the vulnerabilities listed, each of them has their impacts on the users if not taken care of. It started by the application data sends malicious codes via service request or along with user request headers. Not only security at the user’s computer breaches but data theft is also possible. For example, in an email sent by some random user, without even noticing the person receiving the email might have pressed something that may lead for information to leak. Information such as name, address, telephone number and many more may be obtained with just one single click. Service unavailability and service redirections can also occur. Some unsecured web application in browser may cause the web page to change after the user inputs their information to steal their credentials. Information are bound to leak by Server Side Include Injection. This is because SSI allows us to enter the code in HTML page hosted in web server. By allowing system command being executed, security threats will be face by the users. An attacker can retrieve large amount of data from database with SQL injections. Database details can be retrieved by passing authentication because the system did not ask for any username and password. Data validation vulnerabilities have cause a lot of effects to the users.
+% -------Methodology---------------------
+\section{Methodology}
+The Method used is Theoretical. Web applications are mainly deals with request and response to process information with webserver. Security is highly needed in the web application business so that they won't loose integrity and maintain their confidentiality. Using principle associated and some knowledge, the Authors had systematically gave all the research details in this articles.
+
+% -------Conclusions----------------------
+\section{Conclusions}
+Vulnerabilities are major issue we often face these days. In this paper, vulnerabilities that are mentioned such as Cross Site Scripting (XSS), Command Injection, Code Injection, XML Injection, Server Site Injection (SSI), XPATH Injection and SQL Injection can be treated and mitigated. With proper precautions that have been proposed in this paper, users can protect their computer from being infected by unwanted threats. Data validations and input sanitizations are the main solution to secure a web application. A web application that has less complexity will likely be more secure.  Applications that are more complex have to think about the secure communication to survive application in the web. Focusing in secure web application development strategies will be the future plan to protect the user and provide a trusted and secure communication.
+% -------Future Works--------------------
+\section{Future Works}
+Web applications have become part of our daily lives. We use web applications to complete our tasks most of the time. Billing, presentation, file sharing, online education are just a few categories of web applications. For instance, PayPal application which is an online payment app that allows users to make payment using their PayPal account or credit cards for any service or items users bought online. The reason why web apps are so popular is because it is for business mobility. Increasing complexity of an application will make the developer consider the secure communication for an app to survive. Precaution steps must be taken before developing an app. Firstly, security awareness must be integrated to the development team at early stages so secure software development life cycle ( SSDLC ) will fulfil. Next, system must be updated and log analysis is conducted to prevent malicious users. The network status of system should be monitored occasionally to analyse request patterns. To prevent system crashes, load and stress on system must be controlled. If validation threats continue to arise, data sanitization is preferred. 
+\section{References}
+Gary McGraw and John Viega, "Building Secure Software: How to Avoid Security Problems the Right Way", Addison-Wesley Pub Co, ISBN 020172152X. \\
+\\
+Dafydd Stuttard, Marcus Pinto, "The Web Application's Handbook Discovering and Exploiting Security Flaws", 2008, Wiley, ISBN 978-0470-17077-9. \\
+\\
+Mike Howard and David LeBlanc, "Writing Secure Code", Microsoft Press, ISBN 0735617228.
+Gary McGraw and Greg Hoglund, "Exploiting Software: How to Break Code", Addison-Wesley Pub Co, ISBN 0201786958. \\
+\\
+Asmawi, A ; Aflendey, L.S. ; Udzir, N.r. ; Mahmod, R., "Model-based system architecture for preventing XPath injection in database-centric web services environment", Computing and Convergence Technology (ICCCT), 2012, Page(s): 621-625. \\
+\\
+Johari, R. ; Sharma, P., "A Survey on Web Application Vulnerabilities (SQLIA, XSS) Exploitation and Security Engine for SQL Injection", Communication Systems and Network Technologies (CSNT), 10.11 09/CSNT.2012.10 4, Page(s): 453-458. \\
+\\
+Jeremiah Grossman, Robert "RSnake" Hansen, Petko "pdp" D. Petkov, Anton Rager, Seth Fogie, "Cross Site Scripting Attacks: XSS Exploits and Defense", 2007, Syngress, ISBN-IO: 1-59749-154-3. 
+Joel Scambray, Mike Shema, Caleb Sima, "Hacking Exposed Web Applications", Second Edition, McGraw-Hili, 2006 - ISBN 0-07226229-0. \\
+\\
+Atashzar, H. ; Torkaman, A ; Bahrololum, M. ; Tadayon, M.H., "A survey on web application vulnerabilities and countermeasures", Computer Sciences and Convergence Information Technology (ICCIT), 2011, Page(s): 647-652. \\
+\\
+James S. Tiller, "The Ethical Hack: A Framework for Business Value Penetration Testing", Auerbach, ISBN 084931609X.\\
+
+
+\end{document}
